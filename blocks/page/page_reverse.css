@@ -1,0 +1,32 @@
+.page_reverse {
+	grid-template-columns: 36px minmax(min-content, 75%) minmax(min-content, calc(25% - 48px)) 36px;
+	grid-template-areas:
+		"header header header header"
+		". page-title page-title . "
+		". content sidebar-right .";
+}
+
+@media (max-width: 1184px) {
+	.page_reverse {
+		grid-template-columns:
+			1px minmax(min-content, calc(25%)) minmax(min-content, 75%) 1px;
+		grid-template-areas:
+			"header header header header"
+			". page-title page-title . "
+			". content sidebar-right.";
+	}
+}
+
+@media (max-width: 1024px) {
+	.page_reverse {
+		grid-template-columns: 12px 1fr 12px;
+		grid-template-areas:
+			"header header header"
+			". page-title ."
+			". content ."
+			". sidebar-right .";
+	}
+}
+
+
+

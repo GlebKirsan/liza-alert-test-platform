@@ -6,7 +6,26 @@
   <title>Страница урока</title>
   <link href="./pages/index.css" rel="stylesheet">
 </head>
-<body>
-  
+<body class="page page_reverse">
+  <header class="header">
+		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__list-item">
+					<a id="courses-page-link" class="menu__link" href="./index.html">
+						<img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы">Курсы
+					</a>
+				</li>
+				<li class="menu__list-item">
+					<a class="menu__link" href="./account.html">
+						<img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль">Профиль
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+  <nav class="breadcrumbs"></nav>
+  <main class="course-content"></main>
+  <aside class="aside sidebar-course"></aside>
 </body>
 </html>
