@@ -4,7 +4,6 @@
 
   display: grid;
   grid-column-gap: 9px;
-  grid-auto-columns: repeat(auto-fit, 1fr) minmax(min-content, max-content);
   grid-auto-flow: column;
   justify-content: flex-start;
 }
