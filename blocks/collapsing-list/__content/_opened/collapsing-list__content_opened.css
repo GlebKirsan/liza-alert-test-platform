@@ -1,0 +1,5 @@
+.collapsing-list__content_opened {
+  visibility: visible;
+  padding-top: 32px;
+  opacity: 1;
+}
