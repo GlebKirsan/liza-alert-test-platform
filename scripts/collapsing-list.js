@@ -1,16 +1,17 @@
 const collapsingListItems = document.querySelectorAll('.collapsing-list__item');
 
 collapsingListItems.forEach((listItem) => {
-  let button  = listItem.querySelector('.collapsing-list__button');
-  let content = listItem.querySelector('.collapsing-list__content');
+  const header  = listItem.querySelector('.collapsing-list__header');
+  const icon    = listItem.querySelector('.collapsing-list__button-icon');
+  const content = listItem.querySelector('.collapsing-list__content');
 
-  button.addEventListener('click', () => {    
-    collapseListItem(button, content);
+  header.addEventListener('click', () => {    
+    collapseListItem(icon, content);
   });
 });
 
-function collapseListItem(button, content) {
-  button.classList.toggle('collapsing-list__button_opened');
+function collapseListItem(icon, content) {
+  icon.classList.toggle('collapsing-list__button-icon_opened');
   content.classList.toggle('collapsing-list__content_opened');
   if (content.style.maxHeight){
     content.style.maxHeight = null;

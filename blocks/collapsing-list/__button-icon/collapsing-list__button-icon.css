@@ -1,13 +1,9 @@
-.collapsing-list__button {
+.collapsing-list__button-icon {
   width: 24px;
   height: 24px;
-
-  border: 0;
 
   background: url(../../../images/sidebar_close-option.svg) no-repeat center center;
   background-size: 10px 10px;
 
-  margin-left: 8px;
-
-  cursor: pointer;
+  margin-left: 8px;  
 }
