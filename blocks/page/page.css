@@ -1,4 +1,5 @@
 .page {
+	font-family: Golos, Arial, Helvetica, sans-serif;
 	display: grid;
 	grid-template-columns: 36px minmax(min-content, calc(25% - 48px)) minmax(min-content, 75%) 36px;
 	grid-template-areas:
