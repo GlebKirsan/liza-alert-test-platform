@@ -3,9 +3,12 @@ on:
   pull_request:
     branches: [ develop ]
     types: [ opened, edited, reopened, synchronize ]
+  push:
+    branches:
+      - "^(?!develop|main).+"
 
 jobs:
-  check-commit-message:
+  validate-commit-message:
     name: Commit Message Validation
     runs-on: ubuntu-latest
 
@@ -14,4 +17,4 @@ jobs:
         uses: gsactions/commit-message-checker@v1
         with:
           pattern: '^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(.+)?:.+'
-          error: 'Your first line has to contain a commit type like stated in .'
+          error: 'Your first line has to contain a commit type like stated in feat:, docs:, fix:, etc..'

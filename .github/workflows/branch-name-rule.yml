@@ -2,11 +2,14 @@ name: 'Assert Branch Naming Convention'
 on: 
   pull_request:
     branches: [ develop ]
-    types: [ assigned, opened, synchronize, reopened ]
+    types: [ opened, edited, reopened, synchronize ]
+  push:
+    branches:
+      - "^(?!develop|main).+"
 
 jobs:
-  validate:
-    name: Branch name validation
+  validate-branch-name:
+    name: Branch Name Validation
     runs-on: ubuntu-latest
 
     steps:
