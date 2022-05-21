@@ -1,0 +1,16 @@
+name: 'Assert Branch Naming Convention'
+on: 
+  pull_request:
+    branches: [ develop ]
+    types: [ assigned, opened, synchronize, reopened ]
+
+jobs:
+  validate:
+    name: Branch name validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Branch name rules
+        uses: deepakputhraya/action-branch-name@v1.0.0
+        with:
+          allowed_prefixes: 'feature,bugfix,hotfix'
