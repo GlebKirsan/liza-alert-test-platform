@@ -12,9 +12,19 @@
 - Разживина Анастасия;
 - Иванов Сергей (проджект).
 
+Работа в репозитории ведётся по Gitflow:
+- главная ветка &mdash; `main`;
+- фичи разрабатываются от `develop`;
+- целевая ветка для Pull Request'ов &mdash; `develop`;
+- наименование веток начинается с принятых в Gitflow префиксов:
+  - `feature/`;
+  - `hotfix/`;
+  - `bugfix/`;
+  - и т.д..
+
+Сообщения в коммитах должны соотвествовать [Conventional commits](https://www.conventionalcommits.org/ru/v1.0.0/).
+
 При создании страниц использовались:
 - HTML;
 - CSS;
 - JS.
-
-Работа в репозитории ведётся по Gitflow с использованием [Conventional commits](https://www.conventionalcommits.org/ru/v1.0.0/)
