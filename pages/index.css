@@ -30,3 +30,13 @@
 @import url('../blocks/collapsing-list/__button-icon/_opened/collapsing-list__button-icon_opened.css');
 @import url('../blocks/collapsing-list/__content/collapsing-list__content.css');
 @import url('../blocks/collapsing-list/__content/_opened/collapsing-list__content_opened.css');
+
+@import url('../blocks/action-panel/action-panel.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/_disabled/button_disabled.css');
+@import url('../blocks/button/__img/button__img.css');
+@import url('../blocks/button/__img/_elem/button__img_elem_arrow-back-active.css');
+@import url('../blocks/button/__img/_elem/button__img_elem_arrow-forward-disabled.css');
+@import url('../blocks/button/__img/_elem/button__img_elem_arrow-forward-main.css');
+@import url('../blocks/button/_main/button_main.css');
+@import url('../blocks/button/_navigation/button_navigation.css');
