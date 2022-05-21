@@ -17,4 +17,4 @@ jobs:
         uses: gsactions/commit-message-checker@v1
         with:
           pattern: '^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(.+)?:.+'
-          error: 'Your first line has to contain a commit type like stated in feat:, docs:, fix:, etc..'
+          error: 'Your first line has to contain a commit type like stated in feat:, docs:, etc..'
