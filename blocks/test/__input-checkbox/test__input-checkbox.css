@@ -1,0 +1,12 @@
+.test__input-checkbox {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0;
+  margin-right: 8px;
+  padding: 0;
+}
+
+.test__input-checkbox:checked + label {
+  color: #f06000;
+}

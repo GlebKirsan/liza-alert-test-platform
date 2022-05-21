@@ -1,0 +1,5 @@
+.test__question-checkbox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}

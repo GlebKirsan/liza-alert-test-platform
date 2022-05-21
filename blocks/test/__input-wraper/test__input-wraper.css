@@ -1,0 +1,5 @@
+.test__input-wraper {
+  display: flex;
+  align-items: baseline;
+  width: 90%;
+}

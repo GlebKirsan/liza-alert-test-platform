@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Страница урока</title>
+    <link href="./pages/index.css" rel="stylesheet" />
+  </head>
+  <body class="page page_reverse">
+    <header class="header">
+      <a class="header__link" target="_blank" href="#">Учебная платформа</a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a id="courses-page-link" class="menu__link" href="./index.html">
+              <img
+                class="menu__icon"
+                src="./images/logo_courses.svg"
+                alt="Курсы"
+              />Курсы
+            </a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__link" href="./account.html">
+              <img
+                class="menu__icon"
+                src="./images/logo_profile.svg"
+                alt="Профиль"
+              />Профиль
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav class="breadcrumbs">
+      <ul class="breadcrumbs__list">
+        <li class="breadcrumbs__item">
+          <a href="#1" class="breadcrumbs__link">Курсы</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a href="#2" class="breadcrumbs__link">Кинологическое направление</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a href="#3" class="breadcrumbs__link"
+            >5. Работа «второго номера» совместно со следовым кинологическим
+            расчётом</a
+          >
+        </li>
+        <li class="breadcrumbs__item">
+          <a href="#4" class="breadcrumbs__link">Видео</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="course-content"></main>
+
+    <main class="course-content container">
+      <div class="flex-wrapper">
+        <h1 class="title">Тест</h1>
+        <a class="link" href="#">Посмотреть условия</a>
+      </div>
+      <!-- ----------------------------------------- -->
+      <section class="test">
+        <form action="" class="test__form" name="test-form">
+          <ol class="test__quastionary-list">
+            <li class="test__question-checkbox">
+              <h3 class="test__input-header">
+                1. В каких случаях перспективно применение следовых
+                кинологических расчётов?
+              </h3>
+              <div class="test__input-wraper">
+                <input
+                  type="checkbox"
+                  class="test__input-checkbox"
+                  name="help"
+                  id="help"
+                />
+                <label for="help"
+                  >Оказание помощи гражданам, оказавшимся в зонах бедствия
+                  или пропавшим в безлюдной местности
+                </label>
+              </div>
+              <div class="test__input-wraper">
+                <input
+                  type="checkbox"
+                  class="test__input-checkbox"
+                  name="teach"
+                  id="teach"
+                />
+                <label for="teach"
+                  >Обучение животного идти как по горячему, так и по остывшему
+                  следу</label
+                >
+              </div>
+              <div class="test__input-wraper">
+                <input
+                  type="checkbox"
+                  class="test__input-checkbox"
+                  name="finding"
+                  id="finding"
+                />
+                <label for="finding"
+                  >Поиск тел и их остатков с применением специально обученных
+                  собак</label
+                >
+              </div>
+              <div class="test__input-separator"></div>
+            </li>
+            <li class="test__question-radio">
+              <h3 class="test__input-header">
+                2. С какого возраста следует начинать дрессировку по курсу ПСС?
+              </h3>
+              <div>
+                <input
+                  type="radio"
+                  class="test__input-radio"
+                  name="age"
+                  id="six months"
+                />
+                <label for="six months">6 месяцев</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  class="test__input-radio"
+                  name="age"
+                  id="one year"
+                />
+                <label for="one year">1–1,5 года</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  class="test__input-radio"
+                  name="age"
+                  id="three years"
+                />
+                <label for="three years">3 года</label>
+              </div>
+            </li>
+          </ol>
+          <button class="test__button-submit" type="submit" disabled>
+            Показать результат
+          </button>
+        </form>
+      </section>
+      <!-- ----------------------------------------- -->
+    </main>
+
+    <aside class="aside sidebar-course container">
+      <ul class="collapsing-list">
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              1. В каких случаях перспективно применение следовых кинологических
+              расчётов
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content"></div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              2. Необходимые обеспечительные меры для успешного применения
+              следовых (розыскных собак)
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content"></div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              3. Особенности привлечения следовых расчётов на ПСР и особенности
+              взаимодействия
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content"></div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              4. Корректная постановка задачи кинологу и особенности
+              её исполнения
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content"></div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              5. Работа «второго номера» совместно со следовым кинологическим
+              расчётом
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content"></div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              6. Оценка качества и особенности анализа результата проделанной
+              следовым кинологическим расчётом работы
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content"></div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              7. Особенности и пределы использования РПРС ом полученной в ходе
+              применения специальной следовой собаки информации в целях
+              успешного разрешения поисков
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content"></div>
+        </li>
+      </ul>
+    </aside>
+
+    <script src="./scripts/collapsing-list.js"></script>
+    <script src="./scripts/enable-to-send-test-form.js"></script>
+  </body>
+</html>

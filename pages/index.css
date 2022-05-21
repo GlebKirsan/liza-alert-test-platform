@@ -13,8 +13,6 @@
 @import url('../blocks/menu/__list-item/menu__list-item.css');
 @import url('../blocks/menu/__list/menu__list.css');
 
-@import url('../blocks/breadcrumbs/breadcrumbs.css');
-
 @import url('../blocks/container/container.css');
 
 @import url('../blocks/aside/aside.css');
@@ -35,3 +33,14 @@
 @import url('../blocks/title/title.css');
 @import url('../blocks/link/link.css');
 @import url('../blocks/course-content/__info-text/course-content__info-text.css');
+/* --------------------------------------- */
+@import url('../blocks/test/__input-wraper/test__input-wraper.css');
+@import url('../blocks/test/__button-submit/test__button-submit.css');
+@import url('../blocks/test/__input-header/test__input-header.css');
+@import url('../blocks/test/__question-radio/test__question-radio.css');
+@import url('../blocks/test/__question-checkbox/test__question-checkbox.css');
+@import url('../blocks/test/__input-checkbox/test__input-checkbox.css');
+@import url('../blocks/test/__input-radio/test__input-radio.css');
+@import url('../blocks/test/__quastionary-list/test__quastionary-list.css');
+@import url('../blocks/test/__input-separator/test__input-separator.css');
+/* --------------------------------------- */
