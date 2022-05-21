@@ -1,0 +1,9 @@
+.breadcrumbs__list {
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-column-gap: 9px;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+}
