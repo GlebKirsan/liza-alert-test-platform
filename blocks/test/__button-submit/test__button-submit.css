@@ -23,6 +23,5 @@
 .test__button-submit_enable {
   background-color: #ff6600;
   color: #fff;
-  cursor: not-allowed;
   cursor: pointer;
 }
