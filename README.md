@@ -4,6 +4,8 @@
 
 [Трелло](https://trello.com/b/u1fhqViX/workspace-03) с задачами.
 
+[Последняя версия сайта](https://glebkirsan.github.io/liza-alert-test-platform/). 
+
 Команда разработки:
 - Беликова Наталья;
 - Горин Илья;
