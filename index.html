@@ -9,6 +9,26 @@
 </head>
 
 <body class="page page_reverse">
+
+  <svg style="display: none">
+    <symbol id="arrow-back-active" viewBox="0 0 17 16" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M7.157 15.071.793 8.707a1 1 0 0 1 0-1.414L7.157.93A1 1 0 0 1 8.57 2.343L3.914 7H15.5a1 1 0 1 1 0 2H3.914l4.657 4.657a1 1 0 1 1-1.414 1.414Z"
+        fill="#F60" />
+    </symbol>
+    <symbol id="arrow-forward-main" viewBox="0 0 16 16" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="m9.343 15.071 6.364-6.364a1 1 0 0 0 0-1.414L9.343.93A1 1 0 0 0 7.93 2.343L12.586 7H1a1 1 0 1 0 0 2h11.586l-4.657 4.657a1 1 0 1 0 1.414 1.414Z"
+        fill="#fff" />
+    </symbol>
+    <symbol id="arrow-forward-disabled" viewBox="0 0 16 16" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="m9.343 15.071 6.364-6.364a1 1 0 0 0 0-1.414L9.343.93A1 1 0 0 0 7.93 2.343L12.586 7H1a1 1 0 1 0 0 2h11.586l-4.657 4.657a1 1 0 1 0 1.414 1.414Z"
+        fill="#9397A3" />
+    </symbol>
+  </svg>
+
+
   <header class="header">
     <a class="header__link" target="_blank" href="#">Учебная платформа</a>
     <nav class="menu">
@@ -34,23 +54,31 @@
         <h1 class="title">Заголовок</h1>
         <a class="link" href="#">Ссылка</a>
       </div>
-      <p class="course-content__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum minus nemo sunt? Consequuntur mollitia perspiciatis similique. Aperiam eveniet harum minus pariatur porro quibusdam rem veritatis. Assumenda culpa distinctio inventore labore?</p>  
+      <p class="course-content__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum minus nemo
+        sunt? Consequuntur mollitia perspiciatis similique. Aperiam eveniet harum minus pariatur porro quibusdam rem
+        veritatis. Assumenda culpa distinctio inventore labore?</p>
     </section>
-    <nav class="action-panel">
+    <div class="action-panel">
       <button type="button" class="button button_navigation">
-        <div class="button__img button__img_elem_arrow-back-active"></div>
-        <div>Назад</div>
+        <svg class="button__img button__img_position_left">
+          <use xlink:href="#arrow-back-active"></use>
+        </svg>
+        Назад
       </button>
       <button type="button" class="button button_main button_navigation">
-        <div>Далее</div>
-        <div class="button__img button__img_elem_arrow-forward-main"></div>
+        Далее
+        <svg class="button__img button__img_position_right">
+          <use xlink:href="#arrow-forward-main"></use>
+        </svg>
       </button>
       <button type="button" class="button button_disabled button_navigation">
-        <div>Далее</div>
-        <div class="button__img button__img_elem_arrow-forward-disabled"></div>
+        Далее
+        <svg class="button__img button__img_position_right">
+          <use xlink:href="#arrow-forward-disabled"></use>
+        </svg>
       </button>
       <button type="button" class="button button_main button_navigation">Завершить</button>
-    </nav>
+    </div>
   </main>
 
   <aside class="aside sidebar-course container">

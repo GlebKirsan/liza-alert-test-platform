@@ -35,9 +35,8 @@
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_disabled/button_disabled.css');
 @import url('../blocks/button/__img/button__img.css');
-@import url('../blocks/button/__img/_elem/button__img_elem_arrow-back-active.css');
-@import url('../blocks/button/__img/_elem/button__img_elem_arrow-forward-disabled.css');
-@import url('../blocks/button/__img/_elem/button__img_elem_arrow-forward-main.css');
+@import url('../blocks/button/__img/_position/button__img_position_right.css');
+@import url('../blocks/button/__img/_position/button__img_position_left.css');
 @import url('../blocks/button/_main/button_main.css');
 @import url('../blocks/button/_navigation/button_navigation.css');
 
