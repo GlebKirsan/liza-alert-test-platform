@@ -37,9 +37,11 @@
 @import url('../blocks/action-panel/action-panel.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_disabled/button_disabled.css');
+@import url('../blocks/button/__img/button__img.css');
 @import url('../blocks/button/__img/_type/button__img_type_navigation.css');
 @import url('../blocks/button/__img/_position/button__img_position_right.css');
 @import url('../blocks/button/__img/_position/button__img_position_left.css');
+@import url('../blocks/button/__title/button__title.css');
 @import url('../blocks/button/_main/button_main.css');
 @import url('../blocks/button/_type/button_type_navigation.css');
 
