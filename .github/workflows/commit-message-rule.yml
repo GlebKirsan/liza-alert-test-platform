@@ -16,7 +16,7 @@ jobs:
       - name: Check Commit Prefix
         uses: gsactions/commit-message-checker@v1
         with:
-          pattern: '^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(.+)?:.+'
+          pattern: '^(Merge|^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(.+)?:).+'
           error: 'Your first line has to contain a commit type like stated in feat:, docs:, etc..'
           excludeDescription: true
           excludeTitle: true
