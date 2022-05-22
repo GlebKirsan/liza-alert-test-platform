@@ -1,0 +1,7 @@
+.player__volume-button {
+  height: 16px;
+  width: 20px;
+  margin: 4px 2px;
+  background-image: url(../../../images/volume-button.svg);
+  background-size: contain;
+}
