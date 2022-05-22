@@ -34,6 +34,12 @@
 @import url('../blocks/collapsing-list/__content/collapsing-list__content.css');
 @import url('../blocks/collapsing-list/__content/_opened/collapsing-list__content_opened.css');
 
+@import url('../blocks/stage-list/stage-list.css');
+@import url('../blocks/stage-list/__item/stage-list__item.css');
+@import url('../blocks/stage-list/__icon/stage-list__icon.css');
+@import url('../blocks/stage-list/__title/stage-list__title.css');
+@import url('../blocks/stage-list/__title/_type/stage-list__title_type_in-progress.css');
+
 @import url('../blocks/flex-wrapper/flex-wrapper.css');
 @import url('../blocks/title/title.css');
 @import url('../blocks/link/link.css');
