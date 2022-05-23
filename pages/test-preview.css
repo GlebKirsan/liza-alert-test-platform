@@ -20,23 +20,6 @@
 
 @import url('../blocks/container/container.css');
 
-@import url('../blocks/player-button/player-button.css');
-@import url('../blocks/player/player.css');
-@import url('../blocks/player/__media/player__media.css');
-@import url('../blocks/player/__controls/player__controls.css');
-@import url('../blocks/player/__play-button/player__play-button.css');
-@import url('../blocks/player/__bar/player__bar.css');
-@import url('../blocks/player/__bar/_type/player__bar_type_duration.css');
-@import url('../blocks/player/__volume-control/player__volume-control.css');
-@import url('../blocks/player/__volume-button/player__volume-button.css');
-@import url('../blocks/player/__bar/_type/player__bar_type_volume.css');
-@import url('../blocks/player/__fullscreen-button/player__fullscreen-button.css');
-
-@import url('../blocks/range-slider/range-slider.css');
-@import url('../blocks/range-slider/__thumb/range-slider__thumb.css');
-@import url('../blocks/range-slider/__track/range-slider__track.css');
-@import url('../blocks/range-slider/__progress/range-slider__progress.css');
-
 @import url('../blocks/aside/aside.css');
 @import url('../blocks/sidebar-course/sidebar-course.css');
 
@@ -51,7 +34,6 @@
 @import url('../blocks/collapsing-list/__content/collapsing-list__content.css');
 @import url('../blocks/collapsing-list/__content/_opened/collapsing-list__content_opened.css');
 
-
 @import url('../blocks/action-panel/action-panel.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_disabled/button_disabled.css');
@@ -63,18 +45,17 @@
 @import url('../blocks/button/_main/button_main.css');
 @import url('../blocks/button/_type/button_type_navigation.css');
 
-@import url('../blocks/stage-list/stage-list.css');
-@import url('../blocks/stage-list/__item/stage-list__item.css');
-@import url('../blocks/stage-list/__icon/stage-list__icon.css');
-@import url('../blocks/stage-list/__title/stage-list__title.css');
-@import url('../blocks/stage-list/__title/_type/stage-list__title_type_in-progress.css');
-
-
 @import url('../blocks/flex-wrapper/flex-wrapper.css');
+@import url('../blocks/flex-wrapper/_jc/flex-wrapper_jc_center.css');
 @import url('../blocks/title/title.css');
-@import url('../blocks/title/_large/title_large.css');
 @import url('../blocks/link/link.css');
 @import url('../blocks/course-content/__info-text/course-content__info-text.css');
 
-@import url('../blocks/align-center/align-center.css');
-@import url('../blocks/bold-text/bold-text.css');
+@import url('../blocks/condition-list/condition-list.css');
+@import url('../blocks/condition-list/__item/condition-list__item.css');
+@import url('../blocks/condition-list/__item/condition-list__item_place-end.css');
+@import url('../blocks/condition-list/__key/condition-list__key.css');
+@import url('../blocks/condition-list/__icon/condition-list__icon.css');
+
+@import url('../blocks/test-info-block/test-info-block.css');
+

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О тесте</title>
+  <link href="./pages/test-preview.css" rel="stylesheet">
+</head>
+<body class="page page_reverse">
+<svg style="display: none">
+  <symbol id="arrow-back-active" viewBox="0 0 17 16" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M7.157 15.071.793 8.707a1 1 0 0 1 0-1.414L7.157.93A1 1 0 0 1 8.57 2.343L3.914 7H15.5a1 1 0 1 1 0 2H3.914l4.657 4.657a1 1 0 1 1-1.414 1.414Z"
+          fill="#F60" />
+  </symbol>
+  <symbol id="arrow-forward-disabled" viewBox="0 0 16 16" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+          d="m9.343 15.071 6.364-6.364a1 1 0 0 0 0-1.414L9.343.93A1 1 0 0 0 7.93 2.343L12.586 7H1a1 1 0 1 0 0 2h11.586l-4.657 4.657a1 1 0 1 0 1.414 1.414Z"
+          fill="#9397A3" />
+  </symbol>
+</svg>
+
+  <header class="header">
+		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__list-item">
+					<a id="courses-page-link" class="menu__link" href="./index.html">
+						<img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы">Курсы
+					</a>
+				</li>
+				<li class="menu__list-item">
+					<a class="menu__link" href="./account.html">
+						<img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль">Профиль
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+  <nav class="breadcrumbs">
+    <ul class="breadcrumbs__list">
+      <li class="breadcrumbs__item">
+        <a href="#1" class="breadcrumbs__link">Курсы</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a href="#2" class="breadcrumbs__link">Кинологическое направление</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a href="#3" class="breadcrumbs__link">5. Работа «второго номера» совместно со следовым кинологическим расчётом</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a href="#4" class="breadcrumbs__link">Тест</a>
+      </li>
+    </ul>
+  </nav>
+
+<main class="course-content">
+    <section class="container">
+      <h1 class="title">Тест</h1>
+      <p class="course-content__info-text">Что мы узнали об особенностях привлечения следовых расчётов на ПСР и особенностях взаимодействия между участниками ППС</p>
+      <div class="container__content">
+        <div class="test-info-block">
+            <ul class="condition-list">
+              <li class="condition-list__item">
+                <div class="condition-list__key">
+                  <img class="condition-list__icon" src="images/icon-check.svg" alt="иконка галочка">Проходной балл:
+                </div>
+                <div class="condition-list__value">80%</div>
+              </li>
+              <li class="condition-list__item">
+                <div class="condition-list__key">
+                  <img class="condition-list__icon" src="images/icon-repeat.svg" alt="иконка повтор">Количество попыток:
+                </div>
+                <div class="condition-list__value">3</div>
+              </li>
+              <li class="condition-list__item">
+                <div class="condition-list__key">
+                  <img class="condition-list__icon" src="images/icon-time.svg" alt="иконка часы">Срок сдачи:
+                </div>
+                <div class="condition-list__value">22.02.2022 г. 16:20 (GMT+3)</div>
+              </li>
+            </ul>
+        </div>
+        <div class="flex-wrapper flex-wrapper_jc_center">
+          <button class="button button_main" href="#">Начать тест</button>
+        </div>
+      </div>
+    </section>
+  <div class="action-panel">
+    <button type="button" class="button button_type_navigation">
+      <svg class="button__img button__img_type_navigation button__img_position_left">
+        <use xlink:href="#arrow-back-active"></use>
+      </svg>
+      <span class="button__title">Назад</span>
+    </button>
+    <button type="button" class="button button_disabled button_type_navigation">
+      <span class="button__title">Далее</span>
+      <svg class="button__img button__img_type_navigation button__img_position_right">
+        <use xlink:href="#arrow-forward-disabled"></use>
+      </svg>
+    </button>
+  </div>
+  </main>
+
+  <aside class="aside sidebar-course container">
+
+    <ul class="collapsing-list">
+      <h2 class="title">Содержание</h2>
+      <li class="collapsing-list__item">
+        <button type="button" class="collapsing-list__header">
+          <h3 class="collapsing-list__title">
+            1. В каких случаях перспективно применение следовых кинологических расчётов
+          </h3>
+          <div class="collapsing-list__button-icon"></div>
+        </button>
+        <div class="collapsing-list__content">
+        </div>
+      </li>
+
+      <li class="collapsing-list__item">
+        <button type="button" class="collapsing-list__header">
+          <h3 class="collapsing-list__title">
+            2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак)
+          </h3>
+          <div class="collapsing-list__button-icon"></div>
+        </button>
+        <div class="collapsing-list__content">
+        </div>
+      </li>
+
+      <li class="collapsing-list__item">
+        <button type="button" class="collapsing-list__header">
+          <h3 class="collapsing-list__title">
+            3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия
+          </h3>
+          <div class="collapsing-list__button-icon"></div>
+        </button>
+        <div class="collapsing-list__content">
+        </div>
+      </li>
+
+      <li class="collapsing-list__item">
+        <button type="button" class="collapsing-list__header">
+          <h3 class="collapsing-list__title">
+            4. Корректная постановка задачи кинологу и особенности её исполнения
+          </h3>
+          <div class="collapsing-list__button-icon"></div>
+        </button>
+        <div class="collapsing-list__content">
+        </div>
+      </li>
+
+      <li class="collapsing-list__item">
+        <button type="button" class="collapsing-list__header">
+          <h3 class="collapsing-list__title">
+            5. Работа «второго номера» совместно со следовым кинологическим расчётом
+          </h3>
+          <div class="collapsing-list__button-icon"></div>
+        </button>
+        <div class="collapsing-list__content">
+        </div>
+      </li>
+
+      <li class="collapsing-list__item">
+        <button type="button" class="collapsing-list__header">
+          <h3 class="collapsing-list__title">
+            6. Оценка качества и особенности анализа результата проделанной следовым кинологическим расчётом работы
+          </h3>
+          <div class="collapsing-list__button-icon"></div>
+        </button>
+        <div class="collapsing-list__content">
+        </div>
+      </li>
+
+      <li class="collapsing-list__item">
+        <button type="button" class="collapsing-list__header">
+          <h3 class="collapsing-list__title">
+            7. Особенности и пределы использования РПРС ом полученной в ходе применения специальной следовой собаки информации в целях успешного разрешения поисков
+          </h3>
+          <div class="collapsing-list__button-icon"></div>
+        </button>
+        <div class="collapsing-list__content">
+        </div>
+      </li>
+    </ul>
+
+  </aside>
+
+  <script src="./scripts/collapsing-list.js"></script>
+  <script src="./scripts/player-controls.js"></script>
+</body>
+</html>
