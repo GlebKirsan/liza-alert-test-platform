@@ -1,0 +1,8 @@
+.list__item {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.list__item:last-child {
+  margin-bottom: 0;
+}
