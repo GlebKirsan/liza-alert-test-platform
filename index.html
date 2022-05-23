@@ -64,42 +64,74 @@
     </ul>
   </nav>
 
-  <main class="course-content">
-    <section class="container">
-      <div class="flex-wrapper">
-        <h1 class="title">Заголовок</h1>
-        <a class="link" href="#">Ссылка</a>
-      </div>
-      <p class="course-content__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum minus nemo
-        sunt? Consequuntur mollitia perspiciatis similique. Aperiam eveniet harum minus pariatur porro quibusdam rem
-        veritatis. Assumenda culpa distinctio inventore labore?</p>
-    </section>
+<main class="course-content">
+    <div class="container">
+        <div class="flex-wrapper">
+            <h1 draggable="true" class="title">Видео</h1>
+
+        </div>
+        <div class="container__content">
+            <div class="player">
+                <video class="player__media" src="https://www.w3schools.com/html/mov_bbb.mp4"
+                    poster="./images/video-placeholder.jpeg">
+                </video>
+                <div class="player__controls">
+                    <button class="player-button player__play-button" type="button"
+                        aria-label="Воспроизвести видео"></button>
+                    <div class="range-slider player__bar player__bar_type_duration">
+                        <div class="range-slider__thumb"></div>
+                        <input class="range-slider__track" type="range" value="0" aria-label="Перемотка видео">
+                        <div class="range-slider__progress"></div>
+                    </div>
+                    <div class="player__volume-control">
+
+
+
+
+                        <button class="player-button player__volume-button" type="button"
+                            aria-label="Включить/выключить звук"></button>
+                        <div class="range-slider player__bar player__bar_type_volume">
+                            <input class="range-slider__track" type="range" value="100" aria-label="Ползунок громкости">
+                            <div class="range-slider__thumb"></div>
+                            <div class="range-slider__progress"></div>
+                        </div>
+                    </div>
+                    <button class="player-button player__fullscreen-button" type="button"
+                        aria-label="Полноэкранный режим"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="action-panel">
-      <button type="button" class="button button_type_navigation">
-        <svg class="button__img button__img_type_navigation button__img_position_left">
-          <use xlink:href="#arrow-back-active"></use>
-        </svg>
-        <span class="button__title">Назад</span>
-      </button>
-      <button type="button" class="button button_main button_type_navigation">
-        <span class="button__title">Далее</span>
-        <svg class="button__img button__img_type_navigation button__img_position_right">
-          <use xlink:href="#arrow-forward-main"></use>
-        </svg>
-      </button>
-      <button type="button" class="button button_disabled button_type_navigation">
-        <span class="button__title">Далее</span>
-        <svg class="button__img button__img_type_navigation button__img_position_right">
-          <use xlink:href="#arrow-forward-disabled"></use>
-        </svg>
-      </button>
-      <button type="button" class="button button_main button_type_navigation"><span class="button__title">Завершить</span></button>
+        <button type="button" class="button button_type_navigation">
+            <svg class="button__img button__img_type_navigation button__img_position_left">
+                <use xlink:href="#arrow-back-active"></use>
+            </svg>
+            <span class="button__title">Назад</span>
+        </button>
+        <button type="button" class="button button_main button_type_navigation">
+            <span class="button__title">Далее</span>
+            <svg class="button__img button__img_type_navigation button__img_position_right">
+                <use xlink:href="#arrow-forward-main"></use>
+            </svg>
+        </button>
+        <button type="button" class="button button_disabled button_type_navigation">
+            <span class="button__title">Далее</span>
+            <svg class="button__img button__img_type_navigation button__img_position_right">
+                <use xlink:href="#arrow-forward-disabled"></use>
+
+            </svg>
+        </button>
+        <button type="button" class="button button_main button_type_navigation"><span
+                class="button__title">Завершить</span></button>
     </div>
   </main>
 
   <aside class="aside sidebar-course container">
 
     <ul class="collapsing-list">
+      <h2 class="title">Содержание</h2>
       <li class="collapsing-list__item">
         <button type="button" class="collapsing-list__header">
           <h3 class="collapsing-list__title">
@@ -182,6 +214,6 @@
   </aside>
 
   <script src="./scripts/collapsing-list.js"></script>
+  <script src="./scripts/player-controls.js"></script>
 </body>
-
 </html>
