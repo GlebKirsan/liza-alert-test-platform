@@ -53,5 +53,11 @@
 
 @import url('../blocks/flex-wrapper/flex-wrapper.css');
 @import url('../blocks/title/title.css');
+@import url('../blocks/title/_large/title_large.css');
 @import url('../blocks/link/link.css');
 @import url('../blocks/course-content/__info-text/course-content__info-text.css');
+
+@import url('../blocks/align-center/align-center.css');
+@import url('../blocks/result-container/result-container.css');
+@import url('../blocks/result-container/__paragraph/result-container__paragraph.css');
+@import url('../blocks/bold-text/bold-text.css');
