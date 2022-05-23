@@ -1,0 +1,9 @@
+.condition-list__item {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.condition-list__item:last-child {
+  margin-bottom: 0;
+}
