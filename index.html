@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Образовательное видео из курса кинологического направления">
+  <meta name="keywords" content="видео">
   <title>Страница урока</title>
   <link href="./pages/index.css" rel="stylesheet">
 </head>
@@ -110,12 +112,21 @@
             </svg>
             <span class="button__title">Назад</span>
         </button>
-        <a class="button button_main button_type_navigation" href="./test-preview.html">
+        <button type="button" class="button button_main button_type_navigation">
             <span class="button__title">Далее</span>
             <svg class="button__img button__img_type_navigation button__img_position_right">
                 <use xlink:href="#arrow-forward-main"></use>
             </svg>
-        </a>
+        </button>
+        <button type="button" class="button button_disabled button_type_navigation">
+            <span class="button__title">Далее</span>
+            <svg class="button__img button__img_type_navigation button__img_position_right">
+                <use xlink:href="#arrow-forward-disabled"></use>
+
+            </svg>
+        </button>
+        <button type="button" class="button button_main button_type_navigation"><span
+                class="button__title">Завершить</span></button>
     </div>
   </main>
 
