@@ -1,0 +1,75 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/font.css");
+
+@import url("../blocks/page/page.css");
+@import url("../blocks/page/page_reverse.css");
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__link/header__link.css");
+@import url("../blocks/menu/menu.css");
+@import url("../blocks/menu/__icon/menu__icon.css");
+@import url("../blocks/menu/__link/menu__link.css");
+@import url("../blocks/menu/__link/_active/menu__link_active.css");
+@import url("../blocks/menu/__list-item/menu__list-item.css");
+@import url("../blocks/menu/__list/menu__list.css");
+
+@import url("../blocks/breadcrumbs/breadcrumbs.css");
+@import url("../blocks/breadcrumbs/__list/breadcrumbs__list.css");
+@import url("../blocks/breadcrumbs/__item/breadcrumbs__item.css");
+@import url("../blocks/breadcrumbs/__link/breadcrumbs__link.css");
+
+@import url("../blocks/container/container.css");
+
+@import url("../blocks/aside/aside.css");
+@import url("../blocks/sidebar-course/sidebar-course.css");
+
+@import url("../blocks/course-content/course-content.css");
+
+@import url("../blocks/collapsing-list/collapsing-list.css");
+@import url("../blocks/collapsing-list/__item/collapsing-list__item.css");
+@import url("../blocks/collapsing-list/__header/collapsing-list__header.css");
+@import url("../blocks/collapsing-list/__title/collapsing-list__title.css");
+@import url("../blocks/collapsing-list/__button-icon/collapsing-list__button-icon.css");
+@import url("../blocks/collapsing-list/__button-icon/_opened/collapsing-list__button-icon_opened.css");
+@import url("../blocks/collapsing-list/__content/collapsing-list__content.css");
+@import url("../blocks/collapsing-list/__content/_opened/collapsing-list__content_opened.css");
+
+@import url("../blocks/stage-list/stage-list.css");
+@import url("../blocks/stage-list/__item/stage-list__item.css");
+@import url("../blocks/stage-list/__icon/stage-list__icon.css");
+@import url("../blocks/stage-list/__title/stage-list__title.css");
+@import url("../blocks/stage-list/__title/_type/stage-list__title_type_in-progress.css");
+
+@import url("../blocks/action-panel/action-panel.css");
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/_disabled/button_disabled.css");
+@import url("../blocks/button/__img/button__img.css");
+@import url("../blocks/button/__img/_type/button__img_type_navigation.css");
+@import url("../blocks/button/__img/_position/button__img_position_right.css");
+@import url("../blocks/button/__img/_position/button__img_position_left.css");
+@import url("../blocks/button/__title/button__title.css");
+@import url("../blocks/button/_main/button_main.css");
+@import url("../blocks/button/_type/button_type_navigation.css");
+
+@import url("../blocks/flex-wrapper/flex-wrapper.css");
+@import url("../blocks/flex-wrapper/_jc/flex-wrapper_jc_center.css");
+@import url("../blocks/title/title.css");
+@import url("../blocks/link/link.css");
+@import url("../blocks/course-content/__info-text/course-content__info-text.css");
+
+@import url("../blocks/test/__input-wraper/test__input-wraper.css");
+@import url("../blocks/test/__form-pseudo-item/test__form-pseudo-item.css");
+@import url("../blocks/test/__form-pseudo-item/_status/test__form-pseudo-item_status_not-checked.css");
+@import url("../blocks/test/__form-pseudo-item/_status/test__form-pseudo-item_status_checked.css");
+@import url("../blocks/test/__form-pseudo-item/_status/test__form-pseudo-item_status_radio-not-selected.css");
+@import url("../blocks/test/__form-pseudo-item/_status/test__form-pseudo-item_status_radio-selected.css");
+@import url("../blocks/test/__input-header/test__input-header.css");
+@import url("../blocks/test/__input-checkbox/test__input-checkbox.css");
+@import url("../blocks/input-changed-design/input-changed-design.css");
+@import url("../blocks/test/__input-radio/test__input-radio.css");
+@import url("../blocks/test/__button-submit/test__button-submit.css");
+@import url("../blocks/test/__button-submit/_enabled/test__button-submit_enabled.css");
+@import url("../blocks/test/__label-text/test__label-text.css");
+@import url("../blocks/test/__question-radio/test__question-radio.css");
+@import url("../blocks/test/__question-checkbox/test__question-checkbox.css");
+@import url("../blocks/test/__quastionary-list/test__quastionary-list.css");

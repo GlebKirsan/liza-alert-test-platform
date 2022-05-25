@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Страница урока / Тест / Результат отрицательный</title>
+    <link href="./pages/page-test-result-negative.css" rel="stylesheet" />
+  </head>
+  <body class="page page_reverse">
+
+    <header class="header">
+      <a class="header__link" target="_blank" href="#">Учебная платформа</a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a id="courses-page-link" class="menu__link" href="./index.html">
+              <img
+                class="menu__icon"
+                src="./images/logo_courses.svg"
+                alt="Курсы"
+              />Курсы
+            </a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__link" href="./account.html">
+              <img
+                class="menu__icon"
+                src="./images/logo_profile.svg"
+                alt="Профиль"
+              />Профиль
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav class="breadcrumbs">
+      <ul class="breadcrumbs__list">
+        <li class="breadcrumbs__item">
+          <a href="#1" class="breadcrumbs__link">Курсы</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a href="#2" class="breadcrumbs__link">Кинологическое направление</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a href="#3" class="breadcrumbs__link">5. Работа «второго номера» совместно со следовым кинологическим расчётом</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a href="#4" class="breadcrumbs__link">Тест</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="course-content">
+      <div class="flex-wrapper">
+        <h1 class="title">Тест</h1>
+        <a class="link" href="./about-test.html">Посмотреть условия</a>
+      </div>
+
+      <section class="test  container">
+        <form action="" class="test__form" name="test-form">
+          <ol class="test__quastionary-list">
+            <li class="test__question-checkbox">
+              <h3 class="test__input-header">
+                1. В каких случаях перспективно применение следовых
+                кинологических расчётов?
+              </h3>
+
+              <label class="test__label test__input-wraper">
+                <input
+                  type="checkbox"
+                  class="test__input-checkbox input-changed-design"
+                  name="help"
+                  id="help"
+                  disabled
+                />
+                <span
+                  class="test__form-pseudo-item test__form-pseudo-item_status_green"
+                ></span>
+                <p class="test__lable-text test__lable-text_color_green">
+                  Оказание помощи гражданам, оказавшимся в зонах бедствия
+                  или пропавшим в безлюдной местности
+                </p>
+              </label>
+
+              <label class="test__label test__input-wraper">
+                <input
+                  type="checkbox"
+                  class="test__input-checkbox input-changed-design"
+                  name="teach"
+                  id="teach"
+                  disabled
+                />
+                <span
+                  class="test__form-pseudo-item test__form-pseudo-item_status_black-tick"
+                ></span>
+                <p class="test__lable-text">
+                  Обучение животного идти как по горячему, так и по остывшему
+                  следу
+                </p>
+              </label>
+
+              <label class="test__label test__input-wraper">
+                <input
+                  type="checkbox"
+                  class="test__input-checkbox input-changed-design"
+                  name="finding"
+                  id="finding"
+                  disabled
+                />
+                <span
+                  class="test__form-pseudo-item test__form-pseudo-item_status_green"
+                ></span>
+                <p class="test__lable-text test__lable-text_color_green">
+                  Поиск тел и их остатков с применением специально обученных
+                  собак
+                </p>
+              </label>
+
+            </li>
+            <li class="test__question-radio">
+              <h3 class="test__input-header">
+                2. С какого возраста следует начинать дрессировку по курсу ПСС?
+              </h3>
+
+              <label class="test__label test__input-wraper">
+                <input
+                  type="radio"
+                  class="test__input-radio input-changed-design"
+                  name="age"
+                  id="six months"
+                  disabled
+                />
+                <span
+                  class="test__form-pseudo-item test__form-pseudo-item_status_cross-red"
+                ></span>
+                <p class="test__lable-text test__lable-text_color_red">
+                  6 месяцев
+                </p>
+              </label>
+
+              <label class="test__label test__input-wraper">
+                <input
+                  type="radio"
+                  class="test__input-radio input-changed-design"
+                  name="age"
+                  id="one year"
+                  disabled
+                />
+                <span
+                  class="test__form-pseudo-item test__form-pseudo-item_status_black-tick"
+                ></span>
+                <p class="test__lable-text">1–1,5 года</p>
+              </label>
+
+              <label class="test__label test__input-wraper">
+                <input
+                  type="radio"
+                  class="test__input-radio input-changed-design"
+                  name="age"
+                  id="three years"
+                  disabled
+                />
+                <span
+                  class="test__form-pseudo-item test__form-pseudo-item_status_cross"
+                ></span>
+                <p class="test__lable-text">3 года</p>
+              </label>
+            </li>
+          </ol>
+        </form>
+        <section class="test__result test__result_status_negative">
+          <p class="test__result-paragraph test__result_big-text">33%</p>
+          <p class="test__result-paragraph">
+            К сожалению, вы не набрали проходной результат.
+          </p>
+          <p class="test__result-paragraph">
+            Нажмите «Пересдать», чтобы попробовать снова.
+          </p>
+        </section>
+        <button class="button test__button-redo button_main">
+          <svg
+            class="button__img button__img_type_redo button__img_position_for-redo"
+          >
+          <use xlink:href="./images/sprite.svg#icon-repeat"></use>
+          </svg>
+          <span class="button__title">Пересдать</span>
+        </button>
+      </section>
+
+      <div class="action-panel">
+        <a href="./index.html" class="button button_type_navigation">
+          <svg class="button__img button__img_type_navigation button__img_position_left" aria-hidden="true">
+            <use xlink:href="./images/sprite.svg#arrow-back"></use>
+          </svg>
+          <span class="button__title">Назад</span>
+        </a>
+        <button type="button" class="button button_disabled button_type_navigation">
+          <span class="button__title">Далее</span>
+          <svg class="button__img button__img_type_navigation button__img_position_right" aria-hidden="true">
+            <use xlink:href="./images/sprite.svg#arrow-forward"></use>
+          </svg>
+        </button>
+      </div>
+
+    </main>
+
+    <aside class="aside sidebar-course container">
+
+      <ul class="collapsing-list">
+        <h2 class="title">Содержание</h2>
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              1. В каких случаях перспективно применение следовых кинологических расчётов
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content">
+            <ul class="stage-list">
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Урок</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Видео</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Урок</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Вебинар</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Тест</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак)
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content">
+            <ul class="stage-list">
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Урок</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Вебинар</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Урок</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Видео</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Тест</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content">
+            <ul class="stage-list">
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Урок</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Вебинар</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Урок</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Видео</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Тест</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              4. Корректная постановка задачи кинологу и особенности её исполнения
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content">
+            <ul class="stage-list">
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Вебинар</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              5. Работа «второго номера» совместно со следовым кинологическим расчётом
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content">
+            <ul class="stage-list">
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Дрессировка поисково-спасательных собак Дрессировка поисково-спасательных собак</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Дрессировка поисково-спасательных собак Дрессировка поисково-спасательных собак</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/done.svg" alt="Выполнено"></img>
+                <p class="stage-list__title">Урок</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/video_in-progress.svg" alt="Видео"></img>
+                <p class="stage-list__title stage-list__title_type_in-progress">Видео</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/test.svg" alt="Тест"></img>
+                <p class="stage-list__title">Тест</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              6. Оценка качества и особенности анализа результата проделанной следовым кинологическим расчётом работы
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content">
+            <ul class="stage-list">
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/lesson.svg" alt="Урок"></img>
+                <p class="stage-list__title">Урок</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/vebinar.svg" alt="Вебинар"></img>
+                <p class="stage-list__title">Вебинар</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/video.svg" alt="Видео"></img>
+                <p class="stage-list__title">Видео</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/test.svg" alt="Тест"></img>
+                <p class="stage-list__title">Тест</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="collapsing-list__item">
+          <button type="button" class="collapsing-list__header">
+            <h3 class="collapsing-list__title">
+              7. Особенности и пределы использования РПРС ом полученной в ходе применения специальной следовой собаки
+              информации в целях успешного разрешения поисков
+            </h3>
+            <div class="collapsing-list__button-icon"></div>
+          </button>
+          <div class="collapsing-list__content">
+            <ul class="stage-list">
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/vebinar.svg" alt="Вебинар"></img>
+                <p class="stage-list__title">Вебинар</p>
+              </li>
+              <li class="stage-list__item">
+                <img class="stage-list__icon" src="./images/stage-list/test.svg" alt="Тест"></img>
+                <p class="stage-list__title">Тест</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+
+    </aside>
+
+    <script src="./scripts/collapsing-list.js"></script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+.test__form-pseudo-item {
+  display: inline-block;
+
+  width: 24px;
+  height: 24px;
+  border: none;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.test__input-checkbox:checked + .test__form-pseudo-item {
+  background-image: url(../../../images/checkbox-checked.svg);
+}
+
+.test__input-radio:checked + .test__form-pseudo-item {
+  background-image: url(../../../images/radio-selected.svg);
+}
