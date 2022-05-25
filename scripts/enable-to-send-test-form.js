@@ -15,16 +15,28 @@ function toggleSubmitButton() {
   }
 }
 
-inputs.forEach(inputItem => {
+inputs.forEach((inputItem) => {
   inputItem.addEventListener("change", function () {
-    isCheckboxChecked = this.checked;
+    isCheckboxChecked = false;
+    for (let checkBoxEl of inputs) {
+      if (checkBoxEl.checked) {
+        isCheckboxChecked = true;
+        break;
+      }
+    }
     toggleSubmitButton();
   });
 });
 
-radios.forEach(radioItem => {
+radios.forEach((radioItem) => {
   radioItem.addEventListener("change", function () {
-    isRadioChecked = this.checked;
+    isRadioChecked = false;
+    for (let radioEl of radios) {
+      if (radioEl.checked) {
+        isRadioChecked = true;
+        break;
+      }
+    }
     toggleSubmitButton();
   });
 });
@@ -34,4 +46,3 @@ function handleTestFormSubmit(evt) {
 }
 
 buttonSubmitTest.addEventListener("submit", handleTestFormSubmit);
-

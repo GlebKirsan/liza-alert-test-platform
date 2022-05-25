@@ -4,31 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Образовательное видео из курса кинологического направления">
   <title>Страница урока</title>
   <link href="./pages/index.css" rel="stylesheet">
 </head>
 
 <body class="page page_reverse">
-
-  <svg style="display: none">
-    <symbol id="arrow-back-active" viewBox="0 0 17 16" fill="none">
-      <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M7.157 15.071.793 8.707a1 1 0 0 1 0-1.414L7.157.93A1 1 0 0 1 8.57 2.343L3.914 7H15.5a1 1 0 1 1 0 2H3.914l4.657 4.657a1 1 0 1 1-1.414 1.414Z"
-        fill="#F60" />
-    </symbol>
-    <symbol id="arrow-forward-main" viewBox="0 0 16 16" fill="none">
-      <path fill-rule="evenodd" clip-rule="evenodd"
-        d="m9.343 15.071 6.364-6.364a1 1 0 0 0 0-1.414L9.343.93A1 1 0 0 0 7.93 2.343L12.586 7H1a1 1 0 1 0 0 2h11.586l-4.657 4.657a1 1 0 1 0 1.414 1.414Z"
-        fill="#fff" />
-    </symbol>
-    <symbol id="arrow-forward-disabled" viewBox="0 0 16 16" fill="none">
-      <path fill-rule="evenodd" clip-rule="evenodd"
-        d="m9.343 15.071 6.364-6.364a1 1 0 0 0 0-1.414L9.343.93A1 1 0 0 0 7.93 2.343L12.586 7H1a1 1 0 1 0 0 2h11.586l-4.657 4.657a1 1 0 1 0 1.414 1.414Z"
-        fill="#9397A3" />
-    </symbol>
-  </svg>
-
-
   <header class="header">
 		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
 		<nav class="menu">
@@ -105,26 +86,17 @@
 
     <div class="action-panel">
         <button type="button" class="button button_type_navigation">
-            <svg class="button__img button__img_type_navigation button__img_position_left">
-                <use xlink:href="#arrow-back-active"></use>
+            <svg class="button__img button__img_type_navigation button__img_position_left" aria-hidden="true">
+                <use xlink:href="./images/sprite.svg#arrow-back"></use>
             </svg>
             <span class="button__title">Назад</span>
         </button>
-        <button type="button" class="button button_main button_type_navigation">
+        <a class="button button_main button_type_navigation" href="./test-preview.html">
             <span class="button__title">Далее</span>
-            <svg class="button__img button__img_type_navigation button__img_position_right">
-                <use xlink:href="#arrow-forward-main"></use>
+            <svg class="button__img button__img_type_navigation button__img_position_right" aria-hidden="true">
+                <use xlink:href="./images/sprite.svg#arrow-forward"></use>
             </svg>
-        </button>
-        <button type="button" class="button button_disabled button_type_navigation">
-            <span class="button__title">Далее</span>
-            <svg class="button__img button__img_type_navigation button__img_position_right">
-                <use xlink:href="#arrow-forward-disabled"></use>
-
-            </svg>
-        </button>
-        <button type="button" class="button button_main button_type_navigation"><span
-                class="button__title">Завершить</span></button>
+        </a>
     </div>
   </main>
 

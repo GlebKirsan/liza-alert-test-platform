@@ -1,20 +1,23 @@
 .button {
-	padding: 12px 24px;
-	margin: 0;
-	font-size: 18px;
-	font-weight: 500;
-	font-style: normal;
-	line-height: 1.33;
-	background-color: #fff;
-	border: 1.2px solid #e6e7eb;
-	border-radius: 16px;
-	color: #f60;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-width: 184px;
+  padding: 12px 24px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.33;
+  background-color: #fff;
+  border: 1.2px solid #e6e7eb;
+  border-radius: 16px;
+  color: #f60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 184px;
+  text-decoration: none;
+  box-sizing: border-box;
+  fill: #f60;
 }
 
 .button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }

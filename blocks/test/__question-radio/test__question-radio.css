@@ -1,5 +1,18 @@
 .test__question-radio {
+  padding-top: 32px;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
+  position: relative;
+}
+
+.test__question-radio:after {
+  background-color: #e6e7eb;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
