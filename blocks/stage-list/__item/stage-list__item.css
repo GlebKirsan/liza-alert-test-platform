@@ -10,6 +10,8 @@
   line-height: 24px;
 
   display: flex;
+
+  fill: #212329;
 }
 
 .stage-list__item:first-child {
