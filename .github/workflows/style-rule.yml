@@ -1,0 +1,14 @@
+name: 'Assert Code Is Pretty Formatted'
+on:
+  pull_request:
+    branches: [ develop ]
+    types: [ opened, edited, reopened, synchronize ]
+
+jobs:
+  validate-code-style:
+    name: Code Style Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: EditorConfig-Action
+        uses: zbeekman/EditorConfig-Action@v1.1.1
