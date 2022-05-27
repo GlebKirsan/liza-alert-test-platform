@@ -1,11 +1,11 @@
 const collapsingListItems = document.querySelectorAll('.collapsing-list__item');
 
 collapsingListItems.forEach((listItem) => {
-  const header  = listItem.querySelector('.collapsing-list__button');
+  const button  = listItem.querySelector('.collapsing-list__button');
   const icon    = listItem.querySelector('.collapsing-list__icon');
   const content = listItem.querySelector('.collapsing-list__content');
 
-  header.addEventListener('click', () => {
+  button.addEventListener('click', () => {
     collapseListItem(icon, content);
   });
 });
