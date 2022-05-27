@@ -1,0 +1,5 @@
+.condition-list__item_img_repeat {
+  mask-image: url(../../../../images/icon-repeat.svg);
+  -webkit-mask-image: url(../../../../images/icon-repeat.svg);
+  background-color: #212329;
+}

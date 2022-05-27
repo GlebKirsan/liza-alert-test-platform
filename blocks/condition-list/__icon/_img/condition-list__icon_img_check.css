@@ -1,0 +1,5 @@
+.condition-list__item_img_check {
+  mask-image: url(../../../../images/icon-check.svg);
+  -webkit-mask-image: url(../../../../images/icon-check.svg);
+  background-color: #212329;
+}

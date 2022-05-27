@@ -1,0 +1,5 @@
+.condition-list__item_img_time {
+  mask-image: url(../../../../images/icon-time.svg);
+  -webkit-mask-image: url(../../../../images/icon-time.svg);
+  background-color: #212329;
+}
