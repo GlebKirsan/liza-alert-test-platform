@@ -1,4 +1,4 @@
-.page_reverse {
+.lesson-page {
 	grid-template-columns: 36px 1fr 424px 36px;
 	grid-template-areas:
 		"header header header header"
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 1184px) {
-	.page_reverse {
+	.lesson-page {
 		grid-template-columns:
 			1px minmax(min-content, 60%) minmax(min-content, 40%) 1px;
 		grid-template-areas:
@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 1024px) {
-	.page_reverse {
+	.lesson-page {
 		grid-template-columns: 12px 1fr 12px;
 		grid-template-areas:
 			"header header header"
