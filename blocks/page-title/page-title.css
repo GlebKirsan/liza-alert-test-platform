@@ -1,0 +1,8 @@
+.page-title {
+	grid-area: page-title;
+	margin: 24px 0 32px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 108%;
+}
