@@ -25,14 +25,14 @@
 
 @import url("../blocks/course-content/course-content.css");
 
-@import url("../blocks/collapsing-list/collapsing-list.css");
-@import url("../blocks/collapsing-list/__item/collapsing-list__item.css");
-@import url("../blocks/collapsing-list/__header/collapsing-list__header.css");
-@import url("../blocks/collapsing-list/__title/collapsing-list__title.css");
-@import url("../blocks/collapsing-list/__button-icon/collapsing-list__button-icon.css");
-@import url("../blocks/collapsing-list/__button-icon/_opened/collapsing-list__button-icon_opened.css");
-@import url("../blocks/collapsing-list/__content/collapsing-list__content.css");
-@import url("../blocks/collapsing-list/__content/_opened/collapsing-list__content_opened.css");
+@import url('../blocks/collapsing-list/collapsing-list.css');
+@import url('../blocks/collapsing-list/__item/collapsing-list__item.css');
+@import url('../blocks/collapsing-list/__header/collapsing-list__header.css');
+@import url('../blocks/collapsing-list/__button/collapsing-list__button.css');
+@import url('../blocks/collapsing-list/__button/_opened/collapsing-list__button_opened.css');
+@import url('../blocks/collapsing-list/__title/collapsing-list__title.css');
+@import url('../blocks/collapsing-list/__content/collapsing-list__content.css');
+@import url('../blocks/collapsing-list/__content/_opened/collapsing-list__content_opened.css');
 
 @import url('../blocks/stage-list/stage-list.css');
 @import url('../blocks/stage-list/__item/stage-list__item.css');
@@ -55,6 +55,7 @@
 @import url("../blocks/button/__title/button__title.css");
 @import url("../blocks/button/_decor/button_decor_main-button.css");
 @import url("../blocks/button/_type/button_type_navigation.css");
+@import url("../blocks/button/_decor/button_decor_ghost-button.css");
 
 @import url("../blocks/flex-wrapper/flex-wrapper.css");
 @import url("../blocks/flex-wrapper/_jc/flex-wrapper_jc_center.css");
