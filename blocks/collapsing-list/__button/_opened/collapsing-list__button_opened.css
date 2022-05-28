@@ -1,3 +1,4 @@
-.collapsing-list__button-icon_opened {
+.collapsing-list__button_opened {
   background: url(../../../../images/sidebar_open-option.svg) no-repeat center center;
+  background-size: 11px 11px;
 }
