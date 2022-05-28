@@ -61,6 +61,8 @@
 @import url('../blocks/condition-list/__item/condition-list__item_place-end.css');
 @import url('../blocks/condition-list/__key/condition-list__key.css');
 @import url('../blocks/condition-list/__icon/condition-list__icon.css');
-
+@import url('../blocks/condition-list/__icon/_img/condition-list__icon_img_time.css');
+@import url('../blocks/condition-list/__icon/_img/condition-list__icon_img_check.css');
+@import url('../blocks/condition-list/__icon/_img/condition-list__icon_img_repeat.css');
 @import url('../blocks/test-info-block/test-info-block.css');
 
