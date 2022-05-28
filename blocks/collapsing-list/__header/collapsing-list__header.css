@@ -1,12 +1,5 @@
 .collapsing-list__header {
   margin: 0;
   padding: 0;
-  
   display: flex;
-  flex-direction: row;
-  
-  cursor: pointer;
-  border: 0;
-  background-color: inherit;
-  text-align: left;
 }
