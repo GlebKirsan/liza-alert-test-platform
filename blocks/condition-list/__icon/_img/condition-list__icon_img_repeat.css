@@ -1,5 +1,4 @@
 .condition-list__item_img_repeat {
-  mask-image: url(../../../../images/icon-repeat.svg);
-  -webkit-mask-image: url(../../../../images/icon-repeat.svg);
-  background-color: #212329;
+  background: url(../../../../images/icon-repeat.svg);
+  filter: invert(11%) sepia(11%) saturate(720%) hue-rotate(187deg) brightness(102%) contrast(94%);
 }
