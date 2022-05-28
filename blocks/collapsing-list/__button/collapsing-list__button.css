@@ -19,3 +19,8 @@
   bottom: 0;
   right: 0;
 }
+
+.collapsing-list__button:hover {
+  transition: opacity ease-out 1s;
+  opacity: .7;
+}
