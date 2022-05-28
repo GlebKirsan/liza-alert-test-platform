@@ -7,3 +7,8 @@
 
   margin-left: 8px;
 }
+
+.collapsing-list__button-icon:hover {
+  transition: opacity ease-out 1s;
+  opacity: .7;
+}
