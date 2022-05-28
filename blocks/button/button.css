@@ -20,4 +20,6 @@
 
 .button:hover {
   cursor: pointer;
+  transition: opacity ease-out 1s;
+  opacity: .7;
 }

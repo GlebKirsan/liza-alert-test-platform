@@ -5,3 +5,8 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.player-button:hover {
+  transition: opacity ease-out 1s;
+  opacity: .7;
+}
