@@ -1,0 +1,6 @@
+.button__img_type_back {
+  width: 24px;
+  height: 24px;
+  margin: 0 12px;
+  background: url(../../../../images/arrow-back.svg) no-repeat center center;
+}
