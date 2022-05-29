@@ -51,7 +51,6 @@
 @import url('../blocks/stage-list/stage-list.css');
 @import url('../blocks/stage-list/__item/stage-list__item.css');
 @import url('../blocks/stage-list/__item/_type/stage-list__item_type_in-progress.css');
-@import url('../blocks/stage-list/__item/_type/stage-list__item_type_done.css');
 @import url('../blocks/stage-list/__icon/stage-list__icon.css');
 @import url('../blocks/stage-list/__title/stage-list__title.css');
 
