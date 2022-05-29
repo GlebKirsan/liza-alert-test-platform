@@ -71,8 +71,9 @@
 @import url("../blocks/test/__form-pseudo-item/_status/test__form-pseudo-item_status_cross.css");
 @import url("../blocks/test/__result/test__result.css");
 @import url("../blocks/test/__result/_status/test__result_status_positive.css");
-@import url("../blocks/test/__result/_big-text/test__result_big-text.css");
-@import url("../blocks/test/__result/test__result-paragraph.css");
+@import url("../blocks/test/__result-paragraph/test__result-paragraph.css");
+@import url("../blocks/test/__result-paragraph/_big-text/test__result-paragraph_big-text.css");
+@import url("../blocks/test/__result-paragraph/_separate-line/test__result-paragraph_separate-line.css");
 @import url("../blocks/test/__input-header/test__input-header.css");
 @import url("../blocks/test/__input-checkbox/test__input-checkbox.css");
 @import url("../blocks/test/__input-radio/test__input-radio.css");
