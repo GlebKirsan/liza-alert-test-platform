@@ -6,16 +6,11 @@
   margin-right: auto;
   width: 224px;
   height: 48px;
-
-  background-color: #e6e7eb;
   border-radius: 16px;
   border: none;
-  cursor: not-allowed;
-
   font-family: inherit;
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
   line-height: 1.33;
-  color: #9397a3;
 }

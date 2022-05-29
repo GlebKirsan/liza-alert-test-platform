@@ -57,8 +57,8 @@
         <a class="link" href="./about-test.html">Посмотреть условия</a>
       </div>
 
-      <section class="test">
-        <form action="" class="test__form" name="test-form">
+      <section class="test" aria-label="секция тест">
+        <form class="test__form" name="test-form">
           <ol class="test__quastionary-list">
             <li class="test__question-checkbox">
               <h3 class="test__input-header">
@@ -77,10 +77,10 @@
                 <span
                   class="test__form-pseudo-item test__form-pseudo-item_status_green"
                 ></span>
-                <p class="test__lable-text test__lable-text_color_green">
+                <span class="test__lable-text test__lable-text_color_green">
                   Оказание помощи гражданам, оказавшимся в зонах бедствия
                   или пропавшим в безлюдной местности
-                </p>
+                </span>
               </label>
 
               <label class="test__label test__input-wraper">
@@ -94,10 +94,10 @@
                 <span
                   class="test__form-pseudo-item test__form-pseudo-item_status_black-tick"
                 ></span>
-                <p class="test__lable-text">
+                <span class="test__lable-text">
                   Обучение животного идти как по горячему, так и по остывшему
                   следу
-                </p>
+                </span>
               </label>
 
               <label class="test__label test__input-wraper">
@@ -111,10 +111,10 @@
                 <span
                   class="test__form-pseudo-item test__form-pseudo-item_status_green"
                 ></span>
-                <p class="test__lable-text test__lable-text_color_green">
+                <span class="test__lable-text test__lable-text_color_green">
                   Поиск тел и их остатков с применением специально обученных
                   собак
-                </p>
+                </span>
               </label>
 
             </li>
@@ -128,13 +128,13 @@
                   type="radio"
                   class="test__input-radio input-changed-design"
                   name="age"
-                  id="six months"
+                  id="six-months"
                   disabled
                 />
                 <span
                   class="test__form-pseudo-item test__form-pseudo-item_status_cross"
                 ></span>
-                <p class="test__lable-text">6 месяцев</p>
+                <span class="test__lable-text">6 месяцев</span>
               </label>
 
               <label class="test__label test__input-wraper">
@@ -142,13 +142,13 @@
                   type="radio"
                   class="test__input-radio input-changed-design"
                   name="age"
-                  id="one year"
+                  id="one-year"
                   disabled
                 />
                 <span
                   class="test__form-pseudo-item test__form-pseudo-item_status_green"
                 ></span>
-                <p class="test__lable-text">1–1,5 года</p>
+                <span class="test__lable-text">1–1,5 года</span>
               </label>
 
               <label class="test__label test__input-wraper">
@@ -156,31 +156,31 @@
                   type="radio"
                   class="test__input-radio input-changed-design"
                   name="age"
-                  id="three years"
+                  id="three-years"
                   disabled
                 />
                 <span
                   class="test__form-pseudo-item test__form-pseudo-item_status_cross"
                 ></span>
-                <p class="test__lable-text">3 года</p>
+                <span class="test__lable-text">3 года</span>
               </label>
             </li>
           </ol>
         </form>
-        <section class="test__result test__result_status_positive">
-          <p class="test__result-paragraph test__result_big-text">83%</p>
+        <section class="test__result test__result_status_positive" aria-label="результаты теста">
+          <p class="test__result-paragraph test__result-paragraph_big-text">83%</p>
           <p class="test__result-paragraph">Отличный результат!</p>
           <p class="test__result-paragraph">
-            Нажите &laquo;Далее&raquo; чтобы продолжить. <br />
+            <span class="test__result-paragraph_separate-line">Нажите &laquo;Далее&raquo; чтобы продолжить.</span>
             Если считаете, что сможете лучше, нажмите &laquo;Пересдать&raquo;.
             В&nbsp;случае если результат будет хуже, засчитается наивысший
             результат.
           </p>
         </section>
-        <button class="button test__button-redo button_decor_ghost-button">
-          <div class="button__img button__img_type_redo button__img_position_for-redo button__img_decor_orange"></div>
+        <a href="./page-test.html" class="button test__button-redo button_decor_main-button">
+          <span class="button__img button__img_type_redo button__img_position_for-redo button__img_decor_white"></span>
           <span class="button__title">Пересдать</span>
-        </button>
+        </a>
       </section>
       <div class="action-panel">
         <a class="button button_type_navigation button_decor_ghost-button" href="./index.html">
