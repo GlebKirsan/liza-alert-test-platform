@@ -43,13 +43,17 @@
 
 @import url("../blocks/action-panel/action-panel.css");
 @import url("../blocks/button/button.css");
+@import url("../blocks/button/_decor/button_decor_main-button.css");
 @import url("../blocks/button/_disabled/button_disabled.css");
 @import url("../blocks/button/__img/button__img.css");
-@import url("../blocks/button/__img/_type/button__img_type_navigation.css");
+@import url('../blocks/button/__img/_decor/button__img_decor_white.css');
+@import url('../blocks/button/__img/_decor/button__img_decor_orange.css');
+@import url('../blocks/button/__img/_disabled/button__img_disabled.css');
+@import url('../blocks/button/__img/_type/button__img_type_forward.css');
+@import url('../blocks/button/__img/_type/button__img_type_back.css');
 @import url("../blocks/button/__img/_type/button__img_type_redo.css");
 @import url("../blocks/button/__img/_position/button__img_position_for-redo.css");
 @import url("../blocks/button/__title/button__title.css");
-@import url("../blocks/button/_decor/button_decor_main-button.css");
 @import url("../blocks/button/_type/button_type_navigation.css");
 @import url("../blocks/button/_decor/button_decor_ghost-button.css");
 
