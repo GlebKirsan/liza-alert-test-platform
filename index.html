@@ -9,13 +9,13 @@
   <link href="./pages/index.css" rel="stylesheet">
 </head>
 
-<body class="page page_reverse">
+<body class="page lesson-page">
   <header class="header">
 		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
 		<nav class="menu">
 			<ul class="menu__list">
 				<li class="menu__list-item">
-					<a id="courses-page-link" class="menu__link" href="./index.html">
+					<a id="courses-page-link" class="menu__link" href="./courses.html">
 						<img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы">Курсы
 					</a>
 				</li>
@@ -31,7 +31,7 @@
   <nav class="breadcrumbs">
     <ul class="breadcrumbs__list">
       <li class="breadcrumbs__item">
-        <a href="#1" class="breadcrumbs__link">Курсы</a>
+        <a href="./courses.html" class="breadcrumbs__link">Курсы</a>
       </li>
       <li class="breadcrumbs__item">
         <a href="#2" class="breadcrumbs__link">Кинологическое направление</a>
@@ -73,32 +73,30 @@
     </div>
 
     <div class="action-panel">
-        <button type="button" class="button button_type_navigation">
-            <svg class="button__img button__img_type_navigation button__img_position_left" aria-hidden="true">
-                <use xlink:href="./images/sprite.svg#arrow-back"></use>
-            </svg>
-            <span class="button__title">Назад</span>
-        </button>
-        <a class="button button_main button_type_navigation" href="./test-preview.html">
-            <span class="button__title">Далее</span>
-            <svg class="button__img button__img_type_navigation button__img_position_right" aria-hidden="true">
-                <use xlink:href="./images/sprite.svg#arrow-forward"></use>
-            </svg>
-        </a>
+      <a class="button button_type_navigation button_decor_ghost-button" href="#">
+          <div class="button__img button__img_type_back button__img_decor_orange"></div>
+        <span class="button__title">Назад</span>
+      </a>
+      <a class="button button_decor_main-button button_type_navigation" href="./test-preview.html">
+        <span class="button__title">Далее</span>
+        <div class="button__img button__img_type_forward button__img_decor_white"></div>
+      </a>
     </div>
-  </main>
+</main>
 
   <aside class="aside sidebar-course container">
 
+    <h2 class="title">Содержание</h2>
+
     <ul class="collapsing-list">
-      <h2 class="title">Содержание</h2>
+
       <li class="collapsing-list__item">
-        <button type="button" class="collapsing-list__header">
+        <div class="collapsing-list__header">
           <h3 class="collapsing-list__title">
             1. В каких случаях перспективно применение следовых кинологических расчётов
           </h3>
-          <div class="collapsing-list__button-icon"></div>
-        </button>
+          <button type="button" class="collapsing-list__button"></button>
+        </div>
         <div class="collapsing-list__content">
           <ul class="stage-list">
             <li class="stage-list__item stage-list__item_type_done">
@@ -126,12 +124,12 @@
       </li>
 
       <li class="collapsing-list__item">
-        <button type="button" class="collapsing-list__header">
+        <div class="collapsing-list__header">
           <h3 class="collapsing-list__title">
             2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак)
           </h3>
-          <div class="collapsing-list__button-icon"></div>
-        </button>
+          <button type="button" class="collapsing-list__button"></button>
+        </div>
         <div class="collapsing-list__content">
           <ul class="stage-list">
             <li class="stage-list__item stage-list__item_type_done">
@@ -159,12 +157,12 @@
       </li>
 
       <li class="collapsing-list__item">
-        <button type="button" class="collapsing-list__header">
+        <div class="collapsing-list__header">
           <h3 class="collapsing-list__title">
             3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия
           </h3>
-          <div class="collapsing-list__button-icon"></div>
-        </button>
+          <button type="button" class="collapsing-list__button"></button>
+        </div>
         <div class="collapsing-list__content">
           <ul class="stage-list">
             <li class="stage-list__item stage-list__item_type_done">
@@ -192,12 +190,12 @@
       </li>
 
       <li class="collapsing-list__item">
-        <button type="button" class="collapsing-list__header">
+        <div class="collapsing-list__header">
           <h3 class="collapsing-list__title">
             4. Корректная постановка задачи кинологу и особенности её исполнения
           </h3>
-          <div class="collapsing-list__button-icon"></div>
-        </button>
+          <button type="button" class="collapsing-list__button"></button>
+        </div>
         <div class="collapsing-list__content">
           <ul class="stage-list">
             <li class="stage-list__item stage-list__item_type_done">
@@ -209,12 +207,12 @@
       </li>
 
       <li class="collapsing-list__item">
-        <button type="button" class="collapsing-list__header">
+        <div class="collapsing-list__header">
           <h3 class="collapsing-list__title">
             5. Работа «второго номера» совместно со следовым кинологическим расчётом
           </h3>
-          <div class="collapsing-list__button-icon"></div>
-        </button>
+          <button type="button" class="collapsing-list__button"></button>
+        </div>
         <div class="collapsing-list__content">
           <ul class="stage-list">
             <li class="stage-list__item stage-list__item_type_done">
@@ -242,12 +240,12 @@
       </li>
 
       <li class="collapsing-list__item">
-        <button type="button" class="collapsing-list__header">
+        <div class="collapsing-list__header">
           <h3 class="collapsing-list__title">
             6. Оценка качества и особенности анализа результата проделанной следовым кинологическим расчётом работы
           </h3>
-          <div class="collapsing-list__button-icon"></div>
-        </button>
+          <button type="button" class="collapsing-list__button"></button>
+        </div>
         <div class="collapsing-list__content">
           <ul class="stage-list">
             <li class="stage-list__item">
@@ -271,13 +269,13 @@
       </li>
 
       <li class="collapsing-list__item">
-        <button type="button" class="collapsing-list__header">
+        <div class="collapsing-list__header">
           <h3 class="collapsing-list__title">
             7. Особенности и пределы использования РПРС ом полученной в ходе применения специальной следовой собаки
             информации в целях успешного разрешения поисков
           </h3>
-          <div class="collapsing-list__button-icon"></div>
-        </button>
+          <button type="button" class="collapsing-list__button"></button>
+        </div>
         <div class="collapsing-list__content">
           <ul class="stage-list">
             <li class="stage-list__item">
@@ -291,6 +289,7 @@
           </ul>
         </div>
       </li>
+
     </ul>
 
   </aside>

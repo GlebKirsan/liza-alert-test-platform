@@ -2,7 +2,7 @@
 @import url("../vendor/font.css");
 
 @import url("../blocks/page/page.css");
-@import url("../blocks/page/page_reverse.css");
+@import url("../blocks/lesson-page/lesson-page.css");
 
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__link/header__link.css");
@@ -25,14 +25,14 @@
 
 @import url("../blocks/course-content/course-content.css");
 
-@import url("../blocks/collapsing-list/collapsing-list.css");
-@import url("../blocks/collapsing-list/__item/collapsing-list__item.css");
-@import url("../blocks/collapsing-list/__header/collapsing-list__header.css");
-@import url("../blocks/collapsing-list/__title/collapsing-list__title.css");
-@import url("../blocks/collapsing-list/__button-icon/collapsing-list__button-icon.css");
-@import url("../blocks/collapsing-list/__button-icon/_opened/collapsing-list__button-icon_opened.css");
-@import url("../blocks/collapsing-list/__content/collapsing-list__content.css");
-@import url("../blocks/collapsing-list/__content/_opened/collapsing-list__content_opened.css");
+@import url('../blocks/collapsing-list/collapsing-list.css');
+@import url('../blocks/collapsing-list/__item/collapsing-list__item.css');
+@import url('../blocks/collapsing-list/__header/collapsing-list__header.css');
+@import url('../blocks/collapsing-list/__button/collapsing-list__button.css');
+@import url('../blocks/collapsing-list/__button/_opened/collapsing-list__button_opened.css');
+@import url('../blocks/collapsing-list/__title/collapsing-list__title.css');
+@import url('../blocks/collapsing-list/__content/collapsing-list__content.css');
+@import url('../blocks/collapsing-list/__content/_opened/collapsing-list__content_opened.css');
 
 @import url('../blocks/stage-list/stage-list.css');
 @import url('../blocks/stage-list/__item/stage-list__item.css');
@@ -45,12 +45,15 @@
 @import url("../blocks/button/button.css");
 @import url("../blocks/button/_disabled/button_disabled.css");
 @import url("../blocks/button/__img/button__img.css");
-@import url("../blocks/button/__img/_type/button__img_type_navigation.css");
-@import url("../blocks/button/__img/_position/button__img_position_right.css");
-@import url("../blocks/button/__img/_position/button__img_position_left.css");
+@import url('../blocks/button/__img/_decor/button__img_decor_white.css');
+@import url('../blocks/button/__img/_decor/button__img_decor_orange.css');
+@import url('../blocks/button/__img/_disabled/button__img_disabled.css');
+@import url('../blocks/button/__img/_type/button__img_type_forward.css');
+@import url('../blocks/button/__img/_type/button__img_type_back.css');
 @import url("../blocks/button/__title/button__title.css");
-@import url("../blocks/button/_main/button_main.css");
+@import url("../blocks/button/_decor/button_decor_main-button.css");
 @import url("../blocks/button/_type/button_type_navigation.css");
+@import url("../blocks/button/_decor/button_decor_ghost-button.css");
 
 @import url("../blocks/flex-wrapper/flex-wrapper.css");
 @import url("../blocks/flex-wrapper/_jc/flex-wrapper_jc_center.css");

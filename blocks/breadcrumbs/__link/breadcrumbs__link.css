@@ -6,3 +6,7 @@
   color: inherit;
 }
 
+.breadcrumbs__link:hover {
+  transition: opacity ease-out 1s;
+  opacity: .7;
+}

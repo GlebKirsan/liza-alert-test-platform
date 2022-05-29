@@ -1,0 +1,26 @@
+.collapsing-list__button {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border: 0;
+  background-color: inherit;
+  width: 24px;
+  height: 24px;
+  background: url(../../../images/sidebar_close-option.svg) no-repeat center center;
+  background-size: 11px 11px;
+  margin-left: 8px;
+}
+
+.collapsing-list__button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.collapsing-list__button:hover {
+  transition: opacity ease-out 1s;
+  opacity: .7;
+}
