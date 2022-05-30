@@ -7,12 +7,10 @@ let isCheckboxChecked = false;
 
 function toggleSubmitButton() {
   if (isRadioChecked && isCheckboxChecked) {
-    buttonSubmitTest.classList.add("test__button-submit_status_enabled");
-    buttonSubmitTest.classList.remove("test__button-submit_status_disabled");
+    buttonSubmitTest.classList.add("test__button-submit_enabled");
     buttonSubmitTest.removeAttribute("disabled");
   } else {
-    buttonSubmitTest.classList.remove("test__button-submit_status_enabled");
-    buttonSubmitTest.classList.add("test__button-submit_status_disabled");
+    buttonSubmitTest.classList.remove("test__button-submit_enabled");
     buttonSubmitTest.setAttribute("disabled", "disabled");
   }
 }

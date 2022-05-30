@@ -71,9 +71,9 @@
 @import url("../blocks/input-changed-design/input-changed-design.css");
 @import url("../blocks/test/__input-radio/test__input-radio.css");
 @import url("../blocks/test/__button-submit/test__button-submit.css");
-@import url("../blocks/test/__button-submit/_status/test__button-submit_status_disabled.css");
-@import url("../blocks/test/__button-submit/_status/test__button-submit_status_enabled.css");
+@import url("../blocks/test/__button-submit/_enabled/test__button-submit_enabled.css");
 @import url("../blocks/test/__label-text/test__label-text.css");
 @import url("../blocks/test/__question-radio/test__question-radio.css");
 @import url("../blocks/test/__question-checkbox/test__question-checkbox.css");
 @import url("../blocks/test/__quastionary-list/test__quastionary-list.css");
+@import url("../blocks/test/test.css");
