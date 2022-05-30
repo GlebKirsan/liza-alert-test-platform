@@ -33,9 +33,6 @@
 @import url('../blocks/player/__fullscreen-button/player__fullscreen-button.css');
 
 @import url('../blocks/range-slider/range-slider.css');
-@import url('../blocks/range-slider/__thumb/range-slider__thumb.css');
-@import url('../blocks/range-slider/__track/range-slider__track.css');
-@import url('../blocks/range-slider/__progress/range-slider__progress.css');
 
 @import url('../blocks/aside/aside.css');
 @import url('../blocks/sidebar-course/sidebar-course.css');

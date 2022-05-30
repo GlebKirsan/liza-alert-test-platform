@@ -1,14 +1,6 @@
-const sliderContainers = document.querySelectorAll('.range-slider');
-
+const sliders = document.querySelectorAll('.range-slider');
 const durationSlider = document.querySelector('.player__bar_type_duration');
-const durationSliderTrack = durationSlider.querySelector('.range-slider__track');
-const durationSliderThumb = durationSlider.querySelector('.range-slider__thumb');
-const durationSliderProgress = durationSlider.querySelector('.range-slider__progress');
-
-const volumeSliderElement = document.querySelector('.player__bar_type_volume');
-const volumeSliderTrack = volumeSliderElement.querySelector('.range-slider__track');
-const volumeSliderThumb = volumeSliderElement.querySelector('.range-slider__thumb');
-const volumeSliderProgress = volumeSliderElement.querySelector('.range-slider__progress');
+const volumeSlider = document.querySelector('.player__bar_type_volume');
 
 const media = document.querySelector('.player__media');
 media.load();
@@ -20,8 +12,23 @@ const fullscreenButton = document.querySelector('.player__fullscreen-button');
 let percentOfMediaDuration = 0;
 let isMediaLoaded = false;
 
+function calculateBackgroundGradient(value) {
+  return `-webkit-linear-gradient(left, #FF6600 0%, #FF6600 ${value}%, #9397A3 ${value}%, #9397A3)`
+}
+
+function setBackgroundGradientForSlider(slider, value) {
+  slider.style.background = calculateBackgroundGradient(value);
+}
+
 function setVolume(value) {
   media.volume = value;
+  volumeSlider.value = value * 100;
+  setBackgroundGradientForSlider(volumeSlider, volumeSlider.value);
+}
+
+function initSliders() {
+  setBackgroundGradientForSlider(durationSlider, 0);
+  setBackgroundGradientForSlider(volumeSlider, 100);
 }
 
 function toggleMedia() {
@@ -32,35 +39,24 @@ function toggleMedia() {
   }
 }
 
-function updateThumbAndProgress(thumb, progress, value) {
-  thumb.style.left = value + '%';
-  progress.style.width = value + '%';
-}
-
-updateThumbAndProgress(durationSliderThumb, durationSliderProgress, 0);
-updateThumbAndProgress(volumeSliderThumb, volumeSliderProgress, 100);
-
-sliderContainers.forEach(sliderContainer => {
-  const track = sliderContainer.querySelector('.range-slider__track');
-  const thumb = sliderContainer.querySelector('.range-slider__thumb');
-  const progress = sliderContainer.querySelector('.range-slider__progress');
-  track.addEventListener('input', event => updateThumbAndProgress(thumb, progress, event.target.value));
-});
-
 media.addEventListener('loadeddata', () => {
   percentOfMediaDuration = media.duration / 100;
   isMediaLoaded = true;
-})
+});
 
-durationSliderTrack.addEventListener('input',
-  event => media.currentTime = event.target.value * percentOfMediaDuration);
+sliders.forEach(slider =>
+  slider.addEventListener('input', () => setBackgroundGradientForSlider(slider, slider.value)));
 
-volumeSliderTrack.addEventListener('input', () => setVolume(volumeSliderTrack.value / 100))
+durationSlider.addEventListener('input', () => {
+  media.currentTime = durationSlider.value * percentOfMediaDuration;
+});
+
+volumeSlider.addEventListener('input', () => setVolume(volumeSlider.value / 100));
 
 media.addEventListener('timeupdate', () => {
   if (isMediaLoaded) {
-    const trackProgress = media.currentTime / percentOfMediaDuration;
-    updateThumbAndProgress(durationSliderThumb, durationSliderProgress, trackProgress);
+    durationSlider.value = media.currentTime / percentOfMediaDuration;
+    setBackgroundGradientForSlider(durationSlider, durationSlider.value)
   }
 })
 
@@ -75,4 +71,5 @@ volumeButton.addEventListener('click', () => {
 });
 fullscreenButton.addEventListener('click', () => media.requestFullscreen());
 media.addEventListener('click', toggleMedia);
-playButton.addEventListener('click', toggleMedia)
+playButton.addEventListener('click', toggleMedia);
+initSliders();
