@@ -8,7 +8,7 @@
   border: none;
   border-radius: 16px;
   cursor: pointer;
-  background: -webkit-linear-gradient(left, #FF6600 0%, #FF6600 0%, #9397A3 0%, #9397A3 100%);
+  background: -webkit-linear-gradient(left, #ff6600 0%, #ff6600 0%, #9397a3 0%, #9397a3 100%);
 }
 
 .range-slider::-webkit-slider-thumb {

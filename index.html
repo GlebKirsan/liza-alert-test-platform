@@ -10,23 +10,24 @@
 </head>
 
 <body class="page lesson-page">
+
   <header class="header">
-		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
-		<nav class="menu">
-			<ul class="menu__list">
-				<li class="menu__list-item">
-					<a id="courses-page-link" class="menu__link" href="./courses.html">
-						<img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы">Курсы
-					</a>
-				</li>
-				<li class="menu__list-item">
-					<a class="menu__link" href="./account.html">
-						<img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль">Профиль
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+    <a class="header__link" target="_blank" href="#">Учебная платформа</a>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__list-item">
+          <a id="courses-page-link" class="menu__link" href="./courses.html">
+            <img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы">Курсы
+          </a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__link" href="./account.html">
+            <img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль">Профиль
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
   <nav class="breadcrumbs">
     <ul class="breadcrumbs__list">
@@ -37,7 +38,8 @@
         <a href="#2" class="breadcrumbs__link">Кинологическое направление</a>
       </li>
       <li class="breadcrumbs__item">
-        <a href="#3" class="breadcrumbs__link">5. Работа «второго номера» совместно со следовым кинологическим расчётом</a>
+        <a href="#3" class="breadcrumbs__link">5. Работа «второго номера» совместно со следовым кинологическим
+          расчётом</a>
       </li>
       <li class="breadcrumbs__item">
         <a href="#4" class="breadcrumbs__link">Видео</a>
@@ -45,29 +47,28 @@
     </ul>
   </nav>
 
-<main class="course-content">
+  <main class="course-content">
     <div class="container">
-        <div class="flex-wrapper">
-            <h1 draggable="true" class="title">Видео</h1>
-
-    </div>
+      <div class="flex-wrapper">
+        <h1 draggable="true" class="title">Видео</h1>
+      </div>
       <div class="container__content">
         <div class="player">
           <video class="player__media" src="https://www.w3schools.com/html/mov_bbb.mp4"
-                 poster="./images/video-placeholder.jpeg">
+            poster="./images/video-placeholder.jpeg">
           </video>
           <div class="player__controls">
             <button class="player-button player__play-button" type="button" aria-label="Воспроизвести видео"></button>
             <input class="range-slider player__bar player__bar_type_duration" type="range" value="0"
-                   aria-label="Перемотка видео">
+              aria-label="Перемотка видео">
             <div class="player__volume-control">
               <button class="player-button player__volume-button" type="button"
-                      aria-label="Включить/выключить звук"></button>
+                aria-label="Включить/выключить звук"></button>
               <input class="range-slider player__bar player__bar_type_volume" type="range" value="100"
-                     aria-label="Ползунок громкости">
+                aria-label="Ползунок громкости">
             </div>
             <button class="player-button player__fullscreen-button" type="button"
-                    aria-label="Полноэкранный режим"></button>
+              aria-label="Полноэкранный режим"></button>
           </div>
         </div>
       </div>
@@ -83,14 +84,12 @@
         <span class="button__img button__img_type_forward button__img_decor_white"></span>
       </a>
     </div>
-</main>
+  </main>
 
   <aside class="aside sidebar-course container">
-
     <h2 class="title">Содержание</h2>
 
     <ul class="collapsing-list">
-
       <li class="collapsing-list__item">
         <div class="collapsing-list__header">
           <h3 class="collapsing-list__title">
@@ -290,12 +289,11 @@
           </ul>
         </div>
       </li>
-
     </ul>
-
   </aside>
 
   <script src="./scripts/collapsing-list.js"></script>
   <script src="./scripts/player-controls.js"></script>
 </body>
+
 </html>

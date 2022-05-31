@@ -1,14 +1,14 @@
 .link {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #212329;
-    height: fit-content;
-    cursor: pointer;
-    text-decoration-color: transparent;
-    transition: .3s;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #212329;
+  height: fit-content;
+  cursor: pointer;
+  text-decoration-color: transparent;
+  transition: .3s;
 }
 
 .link:hover {
-    text-decoration-color: #212329;
+  text-decoration-color: #212329;
 }

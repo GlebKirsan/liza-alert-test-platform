@@ -9,5 +9,5 @@
 .test__input-wraper:hover {
   cursor: pointer;
   transition: opacity ease-out 1s;
-  opacity: .7;
+  opacity: 0.7;
 }
