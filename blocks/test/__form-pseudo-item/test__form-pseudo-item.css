@@ -1,10 +1,8 @@
 .test__form-pseudo-item {
   display: inline-block;
-
   width: 24px;
   height: 24px;
   border: none;
-
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

@@ -1,33 +1,29 @@
 .lesson-page {
-	grid-template-columns: 36px 1fr 424px 36px;
-	grid-template-areas:
-		"header header header header"
-		". page-title page-title . "
-		". content sidebar-right .";
+  grid-template-columns: 36px 1fr 424px 36px;
+  grid-template-areas:
+    "header header header header"
+    ". page-title page-title . "
+    ". content sidebar-right .";
 }
 
 @media (max-width: 1184px) {
-	.lesson-page {
-		grid-template-columns:
-			1px minmax(min-content, 60%) minmax(min-content, 40%) 1px;
-		grid-template-areas:
-			"header header header header"
-			". page-title page-title . "
-			". content sidebar-right .";
-	}
+  .lesson-page {
+    grid-template-columns: 1px minmax(min-content, 60%) minmax(min-content, 40%) 1px;
+    grid-template-areas:
+      "header header header header"
+      ". page-title page-title . "
+      ". content sidebar-right .";
+  }
 }
 
 @media (max-width: 1024px) {
-	.lesson-page {
-		grid-template-columns: 12px 1fr 12px;
-		grid-template-areas:
-			"header header header"
-			". page-title ."
-			". content ."
-			". sidebar-right .";
-		row-gap: 12px;
-	}
+  .lesson-page {
+    grid-template-columns: 12px 1fr 12px;
+    grid-template-areas:
+      "header header header"
+      ". page-title ."
+      ". content ."
+      ". sidebar-right .";
+    row-gap: 12px;
+  }
 }
-
-
-
