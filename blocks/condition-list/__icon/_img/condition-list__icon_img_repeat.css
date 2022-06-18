@@ -1,0 +1,4 @@
+.condition-list__item_img_repeat {
+  background: url(../../../../images/icon-repeat.svg);
+  filter: invert(11%) sepia(11%) saturate(720%) hue-rotate(187deg) brightness(102%) contrast(94%);
+}

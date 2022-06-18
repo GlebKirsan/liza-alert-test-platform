@@ -1,0 +1,18 @@
+.card-list__tier {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  padding: 0px 8px;
+  background: #E6E7EB;
+  border-radius: 16px;
+  margin-block-start: 0;
+	margin-block-end: 0;
+  margin: 16px 0 0;
+}
+
+@media (max-width: 1184px) {
+	.card-list__tier {
+		margin-top: 12px;
+	}
+}

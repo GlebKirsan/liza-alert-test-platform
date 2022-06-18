@@ -1,0 +1,5 @@
+.button_decor_ghost-button:hover {
+  border-color: #f60;
+  border-style: solid;
+  opacity: 1;
+}

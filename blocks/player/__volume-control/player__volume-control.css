@@ -1,0 +1,5 @@
+.player__volume-control {
+  display: flex;
+  align-items: center;
+  margin: 0 32px;
+}

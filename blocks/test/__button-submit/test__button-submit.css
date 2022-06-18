@@ -1,0 +1,19 @@
+.test__button-submit {
+  padding: 12px 24px;
+  display: block;
+  margin: 32px auto 0;
+  border-radius: 16px;
+  border: none;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.33;
+  background-color: #e6e7eb;
+  color: #9397a3;
+  cursor: not-allowed;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 224px;
+}

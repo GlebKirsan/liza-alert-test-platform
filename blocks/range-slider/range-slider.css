@@ -1,0 +1,32 @@
+.range-slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  outline: none;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  background: -webkit-linear-gradient(left, #ff6600 0%, #ff6600 0%, #9397a3 0%, #9397a3 100%);
+}
+
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.range-slider::-moz-range-thumb {
+  -moz-appearance: none;
+  background: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}

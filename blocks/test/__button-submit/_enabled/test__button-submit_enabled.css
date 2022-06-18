@@ -1,0 +1,12 @@
+.test__button-submit_enabled {
+  background-color: #f60;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity ease-out 1s;
+  opacity: 1;
+}
+
+.test__button-submit_enabled:hover {
+  transition: opacity ease-out 1s;
+  opacity: 0.7;
+}

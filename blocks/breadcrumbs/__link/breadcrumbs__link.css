@@ -1,0 +1,11 @@
+.breadcrumbs__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.breadcrumbs__link:hover {
+  transition: opacity ease-out 1s;
+  opacity: 0.7;
+}

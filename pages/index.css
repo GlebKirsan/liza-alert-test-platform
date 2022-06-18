@@ -1,2 +1,78 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/font.css');
+
+@import url('../blocks/page/page.css');
+@import url('../blocks/lesson-page/lesson-page.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__icon/menu__icon.css');
+@import url('../blocks/menu/__link/menu__link.css');
+@import url('../blocks/menu/__link/_active/menu__link_active.css');
+@import url('../blocks/menu/__list-item/menu__list-item.css');
+@import url('../blocks/menu/__list/menu__list.css');
+
+@import url('../blocks/breadcrumbs/breadcrumbs.css');
+@import url('../blocks/breadcrumbs/__list/breadcrumbs__list.css');
+@import url('../blocks/breadcrumbs/__item/breadcrumbs__item.css');
+@import url('../blocks/breadcrumbs/__link/breadcrumbs__link.css');
+
+@import url('../blocks/container/container.css');
+
+@import url('../blocks/player-button/player-button.css');
+@import url('../blocks/player/player.css');
+@import url('../blocks/player/__media/player__media.css');
+@import url('../blocks/player/__controls/player__controls.css');
+@import url('../blocks/player/__play-button/player__play-button.css');
+@import url('../blocks/player/__bar/player__bar.css');
+@import url('../blocks/player/__bar/_type/player__bar_type_duration.css');
+@import url('../blocks/player/__volume-control/player__volume-control.css');
+@import url('../blocks/player/__volume-button/player__volume-button.css');
+@import url('../blocks/player/__bar/_type/player__bar_type_volume.css');
+@import url('../blocks/player/__fullscreen-button/player__fullscreen-button.css');
+
+@import url('../blocks/range-slider/range-slider.css');
+
+@import url('../blocks/aside/aside.css');
+@import url('../blocks/sidebar-course/sidebar-course.css');
+
+@import url('../blocks/course-content/course-content.css');
+
+@import url('../blocks/collapsing-list/collapsing-list.css');
+@import url('../blocks/collapsing-list/__item/collapsing-list__item.css');
+@import url('../blocks/collapsing-list/__header/collapsing-list__header.css');
+@import url('../blocks/collapsing-list/__button/collapsing-list__button.css');
+@import url('../blocks/collapsing-list/__button/_opened/collapsing-list__button_opened.css');
+@import url('../blocks/collapsing-list/__title/collapsing-list__title.css');
+@import url('../blocks/collapsing-list/__content/collapsing-list__content.css');
+@import url('../blocks/collapsing-list/__content/_opened/collapsing-list__content_opened.css');
+
+@import url('../blocks/stage-list/stage-list.css');
+@import url('../blocks/stage-list/__item/stage-list__item.css');
+@import url('../blocks/stage-list/__item/_type/stage-list__item_type_in-progress.css');
+@import url('../blocks/stage-list/__icon/stage-list__icon.css');
+@import url('../blocks/stage-list/__title/stage-list__title.css');
+
+@import url('../blocks/action-panel/action-panel.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/_disabled/button_disabled.css');
+@import url('../blocks/button/__img/button__img.css');
+@import url('../blocks/button/__img/_decor/button__img_decor_white.css');
+@import url('../blocks/button/__img/_decor/button__img_decor_orange.css');
+@import url('../blocks/button/__img/_type/button__img_type_forward.css');
+@import url('../blocks/button/__img/_type/button__img_type_back.css');
+@import url('../blocks/button/__img/_disabled/button__img_disabled.css');
+@import url('../blocks/button/__title/button__title.css');
+@import url('../blocks/button/_decor/button_decor_main-button.css');
+@import url('../blocks/button/_decor/button_decor_ghost-button.css');
+@import url('../blocks/button/_type/button_type_navigation.css');
+
+@import url('../blocks/flex-wrapper/flex-wrapper.css');
+@import url('../blocks/title/title.css');
+@import url('../blocks/title/_font/title_font_large.css');
+@import url('../blocks/link/link.css');
+@import url('../blocks/course-content/__info-text/course-content__info-text.css');
+
+@import url('../blocks/align-center/align-center.css');
+@import url('../blocks/bold-text/bold-text.css');

@@ -1,0 +1,4 @@
+.player__bar_type_duration {
+  margin-left: min(32px, 4%);
+  max-width: 63%;
+}
